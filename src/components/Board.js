@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "./board.css";
 
 function Square({ value, onClick }) {
   return (
