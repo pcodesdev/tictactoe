@@ -16,3 +16,11 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
+@media screen and (max-width: 768px) {
+    .header__text {
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 22px;
+    }
+}
