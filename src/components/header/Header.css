@@ -35,4 +35,9 @@
         text-align: justify;
         letter-spacing: 2px;
     }
+
+    .header__div {
+        border: 1px solid #ccc;
+        box-shadow: 5px 5px 5px rgb(50, 107, 121);
+    }
 }
