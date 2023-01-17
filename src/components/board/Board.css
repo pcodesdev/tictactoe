@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Lexend+Tera:wght@500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
 .content__wrapper {
   display: flex;
@@ -6,7 +7,9 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  margin: 6rem auto;
+  margin: auto;
+  padding: 2rem 1rem;
+  background-image: linear-gradient(to right top, #bba1af, #d8a2a8, #eaa793, #e9b57b, #d1ca6e, #bad777, #9ce38a, #73eea6, #67f2bb, #5ef6ce, #5bf9e1, #5ffbf1);
 }
 
 .main__content {
@@ -22,9 +25,17 @@
   width: 6rem;
   height: 6rem;
 
-  font-family: "Lexend Tera", sans-serif;
+  font-family: 'Pacifico', cursive;
   font-size: 50px;
   font-weight: 500;
   padding: 1rem;
   margin: 1rem;
+}
+
+.status {
+  font-family: 'Pacifico', cursive;
+  font-size: 47px;
+  line-height: 55px;
+  font-weight: 400;
+  margin-bottom: 1rem;
 }

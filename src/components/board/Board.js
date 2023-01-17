@@ -31,7 +31,7 @@ function Board() {
   console.log(status);
 
   return (
-    <main className="content__wrapper">
+    <main className="content__wrapper" id="game">
       <div className="main__content">
         <div className="status">{status}</div>
         <div className="main__div">
