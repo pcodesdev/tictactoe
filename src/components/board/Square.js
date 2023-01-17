@@ -1,4 +1,5 @@
 import React from "react";
+import "./Board.css";
 
 function Square({ value, onSquareClick }) {
   //   const [value, setValue] = useState(null);
