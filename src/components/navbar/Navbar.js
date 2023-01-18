@@ -1,5 +1,6 @@
-import { useState } from "react";
+import { useState, useRef } from "react";
 import Logo from "./../../assets/monkey logo.png";
+import logoaudio from "./../../assets/logoaudio.wav";
 import { FaHamburger } from "react-icons/fa";
 import "./navbar.css";
 
@@ -10,12 +11,19 @@ const Navbar = () => {
     setShowNavbar(!showNavbar);
   };
 
+  const audioRef = useRef(null)
+
+  const handleAudio = () => {
+    audioRef.current.play()
+  }
+
   return (
     <nav className="navbar">
       <div className="container">
-        <div className="logo">
+        <div className="logo" onClick={handleAudio}>
           <img src={Logo} alt="logo" />
         </div>
+        <audio ref={audioRef} src={logoaudio} />
         <div className="menu-icon" onClick={handleShowNavbar}>
           <FaHamburger />
         </div>
