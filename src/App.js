@@ -1,7 +1,7 @@
 // import Board from "./components/Board";
 import Navbar from "./components/navbar/Navbar";
 import Header from "./components/header/Header";
-import Board from "./components/board/Board";
+import Game from "./components/board/Game";
 import "./App.css";
 
 function App() {
@@ -9,7 +9,7 @@ function App() {
     <div className="App">
       <Navbar />
       <Header />
-      <Board />
+      <Game />
 
       {/* <Board /> */}
     </div>
