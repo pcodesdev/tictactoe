@@ -13,6 +13,7 @@
 
 .main__content {
   flex-direction: column;
+  box-shadow: 4px 4px 10px rgb(42, 152, 156), -4px -4px 10px rgb(162, 63, 192);
 }
 
 .main__div {
@@ -29,10 +30,10 @@
   font-weight: 200;
 }
 
-ol ul {
+.btn-move {
   font-family: 'Pacifico', cursive;
-  font-size: 25px;
-  line-height: 30px;
+  font-size: 20px;
+  line-height: 25px;
   font-weight: 200;
 }
 
