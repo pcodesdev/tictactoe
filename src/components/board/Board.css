@@ -16,7 +16,7 @@
 }
 
 .main__div {
-  min-width: 300px;
+  min-width: 200px;
   margin: 1rem;
 }
 
@@ -69,5 +69,14 @@ ol ul {
 
   .content__wrapper {
     flex-direction: column;
+  }
+
+  .main__div {
+    min-width: 300px;
+    margin: 0.5rem;
+  }
+
+  .board__moves {
+    margin: 0.5rem;
   }
 }
