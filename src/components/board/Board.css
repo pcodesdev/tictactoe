@@ -16,12 +16,12 @@
 }
 
 .main__div {
-  width: 400px;
+  min-width: 300px;
   margin: 1rem;
 }
 
 .board__moves {
-  width: 400px;
+  min-width: 200px;
   margin: 1rem;
   font-family: 'Pacifico', cursive;
   font-size: 25px;
