@@ -28,6 +28,7 @@
   font-size: 25px;
   line-height: 30px;
   font-weight: 200;
+  box-shadow: 4px 4px 10px rgb(42, 152, 156), -4px -4px 10px rgb(162, 63, 192);
 }
 
 .btn-move {
