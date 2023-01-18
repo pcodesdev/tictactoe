@@ -4,7 +4,7 @@
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  justify-content: cemter;
+  justify-content: center;
   align-items: center;
   margin: auto;
   padding: 2rem 1rem;
