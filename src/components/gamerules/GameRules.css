@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Henny+Penny&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sail&display=swap');
+
+.rules {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-image: linear-gradient(to left bottom, #2e282b, #272326, #201e21, #19181c, #121316, #111417, #111518, #101618, #161e1e, #1d2523, #262d28, #30342d);
+
+}
+
+.rules h1 {
+    font-family: 'Henny Penny', cursive;
+}
+
+.game__rules {
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.game__rules ol {
+    text-decoration: overline;
+    font-family: 'Sail', cursive;
+}
+
+.game__rules ol li {
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    color: transparent;
+    background-image: linear-gradient(to left bottom, #dccdd5, #d7d1dd, #d0d5e2, #cad9e3, #c8dde0, #c8dedd, #c9dfd9, #cde0d4, #cde0d1, #cee0ce, #cfe0ca, #d1e0c6);
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+@media screen and (max-width: 992px) {
+    .game__rules ol li {
+        font-size: 25px;
+        line-height: 30px;
+        font-weight: 200;
+    }
+}

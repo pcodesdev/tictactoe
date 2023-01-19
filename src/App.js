@@ -2,6 +2,7 @@
 import Navbar from "./components/navbar/Navbar";
 import Header from "./components/header/Header";
 import Game from "./components/board/Game";
+import GameRule from "./components/gamerules/GameRule";
 import "./App.css";
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
       <Navbar />
       <Header />
       <Game />
+      <GameRule />
 
       {/* <Board /> */}
     </div>
