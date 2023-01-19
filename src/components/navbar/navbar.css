@@ -19,22 +19,21 @@ body {
 
 .navbar {
   height: 100px;
-  background-image: linear-gradient(
-    to left top,
-    #d16ba5,
-    #c777b9,
-    #ba83ca,
-    #aa8fd8,
-    #9a9ae1,
-    #8aa7ec,
-    #79b3f4,
-    #69bff8,
-    #52cffe,
-    #41dfff,
-    #46eefa,
-    #5ffbf1
-  );
+  background-image: linear-gradient(to left top,
+      #d16ba5,
+      #c777b9,
+      #ba83ca,
+      #aa8fd8,
+      #9a9ae1,
+      #8aa7ec,
+      #79b3f4,
+      #69bff8,
+      #52cffe,
+      #41dfff,
+      #46eefa,
+      #5ffbf1);
   position: relative;
+  z-index: 1;
 }
 
 .logo {
@@ -44,6 +43,7 @@ body {
 .logo img {
   width: 95px;
 }
+
 img {
   animation: spin 10s infinite linear;
 }
@@ -52,6 +52,7 @@ img {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
@@ -61,8 +62,7 @@ img {
   display: none;
 }
 
-.nav-elements {
-}
+.nav-elements {}
 
 .nav-elements ul {
   display: flex;
@@ -123,21 +123,19 @@ img {
     position: absolute;
     right: 0;
     top: 100px;
-    background-image: linear-gradient(
-      to left top,
-      #d16ba5,
-      #c777b9,
-      #ba83ca,
-      #aa8fd8,
-      #9a9ae1,
-      #8aa7ec,
-      #79b3f4,
-      #69bff8,
-      #52cffe,
-      #41dfff,
-      #46eefa,
-      #5ffbf1
-    );
+    background-image: linear-gradient(to left top,
+        #d16ba5,
+        #c777b9,
+        #ba83ca,
+        #aa8fd8,
+        #9a9ae1,
+        #8aa7ec,
+        #79b3f4,
+        #69bff8,
+        #52cffe,
+        #41dfff,
+        #46eefa,
+        #5ffbf1);
     width: 0px;
     height: calc(100vh - 60px);
     transition: all 0.3s ease-in;

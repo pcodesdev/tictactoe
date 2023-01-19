@@ -40,7 +40,7 @@ const Navbar = () => {
               <a href="#game">Game</a>
             </li>
             <li>
-              <a href="#contact">Contact</a>
+              <a href="#rules">Game Rules</a>
             </li>
           </ul>
         </div>

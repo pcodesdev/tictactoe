@@ -22,6 +22,7 @@
     /* set the height to 0 to maintain the aspect ratio of the video */
     padding-bottom: 56.25%;
     /* maintain the aspect ratio of the video */
+    z-index: 0;
 
 }
 

@@ -4,7 +4,7 @@ import './GameRules.css';
 function GameRule(props) {
     return (
         <div>
-            <div className='rules'>
+            <div className='rules' id='rules'>
                 <h1>Here are the general rules for playing Tic-tac-toe:</h1>
                 <div className='game__rules'>
                     <ol>
