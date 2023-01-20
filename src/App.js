@@ -3,6 +3,7 @@ import Navbar from "./components/navbar/Navbar";
 import Header from "./components/header/Header";
 import Game from "./components/board/Game";
 import GameRule from "./components/gamerules/GameRule";
+import Footer from "./components/footer/Footer";
 import "./App.css";
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       <Header />
       <Game />
       <GameRule />
+      <Footer />
 
       {/* <Board /> */}
     </div>
