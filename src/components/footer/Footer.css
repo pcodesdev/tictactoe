@@ -8,11 +8,14 @@ footer {
     margin: 3rem auto;
     padding: 3rem auto;
 
+
 }
 
 .footer__content {
     flex-direction: row;
+
 }
+
 
 .footer__content ul {
     display: flex;
@@ -28,6 +31,7 @@ footer {
     font-size: 50px;
     line-height: 60px;
     margin-top: 2rem;
+    transition: transform 1s ease-in-out;
 
 }
 
